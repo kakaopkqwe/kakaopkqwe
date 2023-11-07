@@ -1,9 +1,22 @@
 /********** Template CSS **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root {
     --primary: #a242ab;
     --light: #F5F5F5;
     --dark: #353535;
 }
+
+body{
+    font-family: 'Sriracha', cursive;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Sriracha', cursive;
+}
+
 
 .fw-medium {
     font-weight: 500 !important;
@@ -85,6 +98,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    font-family: 'Sriracha', cursive;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -613,3 +627,4 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
